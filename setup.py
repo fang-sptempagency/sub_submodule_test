@@ -20,7 +20,7 @@ setuptools.setup(
     url="https://github.com/fang-sptempagency/sub_submodule_test",
     packages=setuptools.find_packages("src"),
     package_dir={"": "src"},
-    py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
+    py_modules=[splitext(basename(path))[0] for path in glob('src/saginuma/*.py')],
     install_requires=_requires_from_file('requirements.txt'),
     classifiers=[
         "Programming Language :: Python :: 3",

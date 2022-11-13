@@ -1,1 +1,1 @@
-from main import show_saginuma
+from __main import show_saginuma
