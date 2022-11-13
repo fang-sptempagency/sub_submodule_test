@@ -11,7 +11,7 @@ def _requires_from_file(filename):
 
 setuptools.setup(
     name="subsubmodule",
-    version="1.0.0",
+    version="1.0.1",
     author="fang",
     author_email="fang.sptempagency.fiction@gmail.com",
     description="show the image of saginuma",
