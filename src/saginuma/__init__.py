@@ -1,1 +1,1 @@
-from __main import show_saginuma
+from .__main import show_saginuma #相対パス指定する
